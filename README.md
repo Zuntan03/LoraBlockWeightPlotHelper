@@ -2,7 +2,8 @@
 
 LoRAの階層適用を手助けするツールと、顔LoRAに階層適用するチュートリアルです。
 
-<!-- TODO: 概要は[こちら]()をご覧ください。 -->
+概要は[こちら](https://twitter.com/Zuntan03/status/1645603234801926144)をご覧ください。
+
 ![GobuhimeInputGrid](./image/GobuhimeInputGrid.png)
 ![GobuhimeFix](./image/GobuhimeFix.png)
 
@@ -223,7 +224,7 @@ LoRAの各層に対して「いる・いらない」で一旦のプリセット�
 
 さらに、LoRAは学習したモデルと、生成したモデルの組み合わせでも結果が大きく異なります（X軸: 学習モデル、Y軸: 生成モデル）。
 
-右クリックから画像を別タブで開いて拡大してみると、アニメ絵をChillOutMixで学習したChillOutMixの生成画像が特徴的であったり、PVCで学習したLoRAをPVCで生成するとPVCらしさが失われたりしています。
+画像をダウンロードして拡大表示してみると、アニメ絵をChillOutMixで学習したChillOutMixの生成画像が特徴的であったり、PVCで学習したLoRAをPVCで生成するとPVCらしさが失われたりしています。
 
 これらの組み合わせに対しても、もちろん層別の重みを調整することができます。
 
